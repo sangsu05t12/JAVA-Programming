@@ -1,0 +1,21 @@
+0. 프로그램 설치 메뉴얼
+이 프로그램은 숙박업소 추천 프로그램입니다. 지역 DB는 제공될 것이고 회원,게시판 DB가 필요합니다.
+Operator 파일에서 실행하시면 됩니다.
+
+제공하는것 : GUIhere프로젝트파일, 지역 DB, 회원, 게시판DB
+
+- 필수
+1. 이클립스 MySQL연동
+https://blog.naver.com/wusemr2/222184514525
+
+2. DB저장 (DB단위로 데이터 복원해야함)
+https://anythingcafe.tistory.com/15
+
+
+- 실행하기 위한 필요한 내용
+이 프로그램을 실행하기 위해서는 이 폴더 안의 자바 파일의 코드를 일부 수정해야 합니다.
+바로 DB를 연결하기 위한 url, user, passwd 변수들입니다. 
+자신의 MySQL 경로, 아이디, 비번을 적어줍니다.
+이 변수들은 Database, MyPage, Room, RoomPension, SearchScreen, MainScreen 파일에 있습니다.
+관리자 계정 같은 경우에는 admin , 1234입니다.
+
